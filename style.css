@@ -1,4 +1,4 @@
-/* Reset de base */
+/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -7,11 +7,11 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f2f2f2;
+  background-color: #f9f9f9;
   color: #333;
 }
 
-/* En-tête */
+/* Header */
 header {
   background-color: #004080;
   color: white;
@@ -19,7 +19,7 @@ header {
   padding: 30px 20px;
 }
 
-header .logo {
+.logo {
   margin-top: 20px;
   width: 150px;
   height: auto;
@@ -44,6 +44,7 @@ header .logo {
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
+  padding: 0 10px;
 }
 
 .card {
@@ -53,7 +54,7 @@ header .logo {
   padding: 20px;
   text-decoration: none;
   color: #333;
-  width: 250px;
+  width: 280px;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -71,12 +72,11 @@ header .logo {
   font-size: 0.95em;
 }
 
-/* Pied de page */
+/* Footer */
 footer {
   background-color: #004080;
   color: white;
   text-align: center;
   padding: 15px;
-  position: relative;
   margin-top: 40px;
 }
